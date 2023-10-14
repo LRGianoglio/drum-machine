@@ -6,10 +6,8 @@ function Button({title, sound}) {
     }
 
     return (
-        <button onClick={handleClick()}>
-            <p>
-                {title}
-            </p>
+        <button onClick={()=>handleClick()} className={style.button}>
+            <p>{title}</p>
         </button>
     );
 }

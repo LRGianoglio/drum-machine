@@ -1,0 +1,8 @@
+.volumeContainer{
+    width: 35%;
+    height: 70%;
+    background-color: plum;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

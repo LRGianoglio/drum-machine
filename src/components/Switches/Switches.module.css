@@ -1,0 +1,8 @@
+.switchesContainer{
+    width: 35%;
+    height: 30%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
