@@ -1,13 +1,14 @@
 import style from './Button.module.css'
 
-function Button({title, sound}) {
+function Button({title, key, sound}) {
     const handleClick = () => {
         console.log(`Boton ${title} presionado`)
     }
 
     return (
         <button onClick={()=>handleClick()} className={style.button}>
-            <p>{title}</p>
+            <p className={style.key}>{key} Q</p>
+            <p className={style.title}>{title}</p>
         </button>
     );
 }

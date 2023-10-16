@@ -1,6 +1,6 @@
 .appContainer{
     margin: auto;
-    transform: translateY(40%);
+    transform: translateY(30vh);
     height: 40vh;
     width: 60vw;
     min-height: 350px;
