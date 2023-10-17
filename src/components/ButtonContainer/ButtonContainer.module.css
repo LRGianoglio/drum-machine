@@ -1,9 +1,8 @@
 .buttonContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
   height: calc(100% - 40px);
   width: calc(65% - 40px);
   padding: 20px;
-  background-color: aqua;
   }

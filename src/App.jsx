@@ -1,4 +1,4 @@
-import {ButtonContainer, Switches, Volume} from "./components"
+import {ButtonContainer, Screen, Switches, Volume} from "./components"
 import style from "./App.module.css"
 
 function App() {
@@ -6,6 +6,7 @@ function App() {
     <div className={style.appContainer}>
       <ButtonContainer />
       <Switches />
+      <Screen />
       <Volume />
     </div>
   );

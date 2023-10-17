@@ -1,7 +1,7 @@
 import { CHANGE_VOLUME, POWER_SWITCH, BANK_SWITCH } from "./types"
 
 const initialState = {
-  lastPlayed: "",
+  lastPlayed: "placeholder",
   volume: 50,
   power: true,
   bank: false

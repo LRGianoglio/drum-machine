@@ -1,12 +1,14 @@
 .button{
     background-color: darkblue;
     color: white;
-    font-size: larger;
-    font-weight: 700;
-    border: 3px white solid;
+    border: 2px aqua solid;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px 1px aqua;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .button:hover{
@@ -14,15 +16,15 @@
     cursor: pointer;
 }
 
-.button p{
-    margin: 0;
-}
-
 .key{
-    width: 100%;
-    text-align: left;
+    margin: 0;
+    font-weight: 500;
+    font-size: larger;
 }
 
 .title{
-    width: 100%;
+    margin: 0;
+    font-weight: 300;
+    font-size: medium;
+    letter-spacing: 1px;
 }

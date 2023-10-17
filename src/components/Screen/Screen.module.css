@@ -1,0 +1,30 @@
+.screenContainer{
+  width: 35%;
+  height: 30%;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yo{
+  margin: 0 0 3px 0;
+  font-size: 10px;
+  font-weight: 700;
+  width: 85%;
+}
+
+.screen{
+  border-radius: 5px;
+  box-shadow: 0 0 5px -2px black;
+  margin: 0;
+  background-color: rgba(0, 255, 255, .7);
+  font-size: large;
+  width: 80%;
+  padding: 10px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+}
