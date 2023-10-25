@@ -1,6 +1,6 @@
 import style from './Switches.module.css'
 import {FiPower} from 'react-icons/fi'
-import { Switch, FormControlLabel } from '@mui/material';
+import { Switch } from '@mui/material';
 
 function Switches() {
     return (
