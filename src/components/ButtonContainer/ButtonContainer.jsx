@@ -6,7 +6,7 @@ function ButtonContainer({buttons = buttonData}) {
     return (
         <div className={style.buttonContainer}>
             {buttons?.map(button => {
-                return <Button title={button.name} sound={"placeholder"} />
+                return <Button title={button.name} sound={button.sound} key={button.key}/>
             })}
         </div>
     );

@@ -1,9 +1,8 @@
 import style from './Button.module.css'
 
-function Button({title, key = "Ñ", sound}) {
-    const audio = new Audio("https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3")
+function Button({title, key, sound}) {
+    const audio = new Audio(sound)
     const handleClick = () => {
-        console.log(`Boton ${title} presionado`)
         audio.play();
     }
 
