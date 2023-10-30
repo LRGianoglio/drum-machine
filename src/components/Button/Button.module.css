@@ -9,11 +9,26 @@
     justify-content: center;
     box-shadow: 0 0 15px 1px aqua;
     font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
 .button:hover{
     background-color: blue;
     cursor: pointer;
+}
+
+.buttonOff{
+    background-color: darkgray;
+    color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px 1px black;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
 
 .key{

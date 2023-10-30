@@ -27,4 +27,18 @@
   padding: 10px 10px;
   text-align: center;
   letter-spacing: 1px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.screenOff{
+  border-radius: 5px;
+  box-shadow: 0 0 5px -2px black;
+  margin: 0;
+  background-color: darkgray;
+  font-size: large;
+  width: 80%;
+  padding: 10px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
