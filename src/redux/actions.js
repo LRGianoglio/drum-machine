@@ -1,4 +1,10 @@
-import { CHANGE_VOLUME, POWER_SWITCH, BANK_SWITCH } from "./types"
+import { CHANGE_VOLUME, POWER_SWITCH, BANK_SWITCH, BUTTON_PRESS } from "./types"
+
+const buttonPress = (text) => {
+    return (dispatch) => {
+        dispatch({type: BUTTON_PRESS, payload: text})
+    }
+}
 
 const changeVolume = (volume) => {
  return (dispatch) => {
@@ -18,7 +24,9 @@ const switchPower = () => {
     }
 }
 
+
 export {
+    buttonPress,
     changeVolume,
     switchBank,
     switchPower,
