@@ -6,6 +6,7 @@ function Volume() {
     const dispatch = useDispatch();
 
     const volume = useSelector(state => state.volume)
+    const power = useSelector(state => state.power)
 
     const handleVolumeChange = (event) => {
         const newVolume = parseInt(event.target.value, 10)

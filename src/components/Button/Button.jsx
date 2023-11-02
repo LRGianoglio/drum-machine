@@ -24,12 +24,14 @@ function Button({title, bkey, sound}) {
     }, [volume])
 
     const handleClick = () => {
-      audio.play();
-      dispatch(buttonPress(title))
+      if (power) {
+        audio.play();
+        dispatch(buttonPress(title));
+      }
     }
 
     const handleKeyPress = (event) => {
-        if (event.key === bkey.toLowerCase() && power) {
+        if (event.key === bkey.toLowerCase()) {
           handleClick();
         }
     };
